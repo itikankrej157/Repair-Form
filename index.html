@@ -8,27 +8,26 @@
 </head>
 <body>
 
-<div class="container mt-5">
+<div class="container mt-4 ">
     <h2 class="text-center text-danger">Record of Major Repairs Carried Out</h2>
-    <form>
+    <form class="border p-4 shadow rounded">
         <div class="mb-3">
-            <label for="srNo" class="form-label">S/R No</label>
-            <input type="text" class="form-control" id="srNo" placeholder="Enter Serial Number">
+            
         </div>
         
         <div class="mb-3">
-            <label for="date" class="form-label">Date</label>
+            <label for="date" class="form-label">Faunt Date</label>
             <input type="date" class="form-control" id="date">
         </div>
 
         <div class="mb-3">
             <label for="faults" class="form-label">Faults Noticed/Reported</label>
-            <input type="text" class="form-control" id="faults" placeholder="Describe the fault">
+            <textarea class="form-control"></textarea>  
         </div>
 
         <div class="mb-3">
             <label for="repairDetails" class="form-label">Details of Repair/Replacement</label>
-            <input type="text" class="form-control" id="repairDetails" placeholder="Enter repair details">
+            <textarea class="form-control"></textarea>  
         </div>
 
         <div class="mb-3">
@@ -36,7 +35,7 @@
             <input type="date" class="form-control" id="repairDate">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary btn-sm w-100">Submit</button>
     </form>
 </div>
 
